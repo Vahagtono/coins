@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Table.css';
+import './content.css';
 
 class Content extends Component {
 
