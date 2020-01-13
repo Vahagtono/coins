@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
 
 import Header from '../header/header';
 import Content from '../content/content';
 
+import './App.css';
+
 class App extends Component {
 
   state = {
-    selectedRowsCount: 10
+    selectedRowsCount: 10,
   }
 
   changeCount = e =>{
@@ -24,4 +25,4 @@ class App extends Component {
     }
   }
 
-  export default App;
+export default App;
